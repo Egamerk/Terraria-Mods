@@ -4,5 +4,6 @@ namespace TestWeponsMod
 {
 	public class TestWeponsMod : Mod
 	{
+
 	}
 }
