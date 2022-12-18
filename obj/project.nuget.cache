@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z5McLh2IljYbqoIjphogyuLyZ/I2w+3jUyJyrTFVCOdgLMB9S1iHVQmwhZIS19r6kZfpJ4pbsJmNVnqQG5MsDQ==",
+  "success": true,
+  "projectFilePath": "/Users/arikoro/Library/Application Support/Terraria/tModLoader/ModSources/CoolSword/CoolSword.csproj",
+  "expectedPackageFiles": [
+    "/Users/arikoro/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
