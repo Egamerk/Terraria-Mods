@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace TestWeponsMod.Items
+namespace TestWeponsMod.Content.Items
 {
 	public class TestSword : ModItem
 	{
