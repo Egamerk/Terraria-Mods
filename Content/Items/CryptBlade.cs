@@ -25,8 +25,8 @@ namespace CoolSword.Content.Items
 
             Item.useStyle = ItemUseStyleID.Swing;
 
-            Item.useTime = 60;
-            Item.useAnimation = 350;
+            Item.useTime = 20;
+            Item.useAnimation = 200;
 
             Item.autoReuse = true;
 
