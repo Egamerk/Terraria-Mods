@@ -1,9 +1,9 @@
-﻿using System;
-
+using System;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
+using Microsoft.Xna.Framework;
 
 namespace CoolSword.Content.Items
 {
@@ -18,17 +18,22 @@ namespace CoolSword.Content.Items
 
         }
 
+        public override Vector2? HoldoutOffset()
+        {
+			return new Vector2(0f, 0f);
+		}
+
         public override void SetDefaults()
         {
             Item.width = 128;
             Item.height = 128;
 
             Item.useStyle = ItemUseStyleID.Swing;
-
+            
             Item.useTime = 20;
-            Item.useAnimation = 200;
+            Item.useAnimation = 150;
 
-            Item.autoReuse = true;
+            Item.autoReuse = false;
 
             Item.DamageType = DamageClass.Melee;
             Item.damage = 50;
@@ -40,6 +45,7 @@ namespace CoolSword.Content.Items
             Item.rare = ItemRarityID.Pink;
 
             Item.UseSound = SoundID.Item1;
+
         }
 
         public override void AddRecipes()
