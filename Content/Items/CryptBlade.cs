@@ -11,8 +11,8 @@ namespace CoolSword.Content.Items
 	{
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Test Sword");
-            Tooltip.SetDefault("Test Sword");
+            DisplayName.SetDefault("Crypt Blade");
+            Tooltip.SetDefault("A crypt blade");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
 
 
@@ -20,23 +20,23 @@ namespace CoolSword.Content.Items
 
         public override void SetDefaults()
         {
-            Item.width = 32;
-            Item.height = 32;
+            Item.width = 128;
+            Item.height = 128;
 
             Item.useStyle = ItemUseStyleID.Swing;
 
             Item.useTime = 60;
-            Item.useAnimation = 500;
+            Item.useAnimation = 350;
 
             Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
             Item.damage = 50;
-            Item.knockBack = 4f;
+            Item.knockBack = 10f;
 
             Item.crit = 5;
 
-            Item.value = Item.buyPrice(gold: 5);
+            Item.value = Item.buyPrice(gold: 50);
             Item.rare = ItemRarityID.Pink;
 
             Item.UseSound = SoundID.Item1;
