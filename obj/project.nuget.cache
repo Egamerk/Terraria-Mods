@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9PBF304cB9psVVmWclW+dVD3rMOi/zYp7vbFNwX4crU70c4u8nq4ngbdxkaVqUG3S2cqMFHc/JmTHsMNYDQTTA==",
+  "success": true,
+  "projectFilePath": "/Users/arikoro/Library/Application Support/Terraria/tModLoader/ModSources/TestWeponsMod/TestWeponsMod.csproj",
+  "expectedPackageFiles": [
+    "/Users/arikoro/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
