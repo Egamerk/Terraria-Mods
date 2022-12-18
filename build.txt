@@ -1,3 +1,0 @@
-displayName = Weponssssss
-author = Ari and Erol
-version = 0.1
