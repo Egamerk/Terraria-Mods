@@ -4,5 +4,6 @@ namespace CoolSword
 {
 	public class CoolSword : Mod
 	{
+
 	}
 }
