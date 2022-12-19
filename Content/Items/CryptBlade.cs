@@ -3,7 +3,6 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
-using Microsoft.Xna.Framework;
 
 namespace CoolSword.Content.Items
 {
@@ -20,8 +19,8 @@ namespace CoolSword.Content.Items
         
         public override void SetDefaults()
         {
-            Item.width = 128;
-            Item.height = 128;
+            Item.width = 105;
+            Item.height = 75;
 
             Item.useStyle = ItemUseStyleID.Swing;
             
@@ -31,7 +30,7 @@ namespace CoolSword.Content.Items
             Item.autoReuse = false;
 
             Item.DamageType = DamageClass.Melee;
-            Item.damage = 50;
+            Item.damage = 500;
             Item.knockBack = 10f;
 
             Item.crit = 5;
