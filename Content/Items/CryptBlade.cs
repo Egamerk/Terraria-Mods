@@ -17,12 +17,7 @@ namespace CoolSword.Content.Items
 
 
         }
-
-        public override Vector2? HoldoutOffset()
-        {
-			return new Vector2(0f, 0f);
-		}
-
+        
         public override void SetDefaults()
         {
             Item.width = 128;
