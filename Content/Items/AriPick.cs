@@ -1,40 +1,32 @@
-using System;
+﻿using System;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
-using Microsoft.Xna.Framework;
-using Terraria.Audio;
-using Terraria.DataStructures;
 
-
+using System;
 namespace CoolSword.Content.Items
 {
-	public class CryptBlade : ModItem
+	public class AriPick : ModItem
 	{
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Crypt Blade");
-            Tooltip.SetDefault("A crypt blade");
+            DisplayName.SetDefault("Ari's Pickaxe");
+            Tooltip.SetDefault("A pretty good pickaxe");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
-        }
-        
-        public override Vector2? HoldoutOffset()
-        {
-        return new Vector2(9000, 3000);
         }
 
         public override void SetDefaults()
         {
-            Item.width = 105;
-            Item.height = 75;
+            Item.width = 26;
+            Item.height = 26;
 
             Item.useStyle = ItemUseStyleID.Swing;
-            
-            Item.useTime = 20;
-            Item.useAnimation = 75;
 
-            Item.autoReuse = false;
+            Item.useTime = 1;
+            Item.useAnimation = 1;
+
+            Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
             Item.damage = 500;
@@ -42,11 +34,13 @@ namespace CoolSword.Content.Items
 
             Item.crit = 5;
 
+            Item.pick = 9999;
+            Item.axe = 9999;
+
             Item.value = Item.buyPrice(gold: 50);
-            Item.rare = ItemRarityID.Pink;
+            Item.rare = ItemRarityID.Purple;
 
             Item.UseSound = SoundID.Item1;
-
         }
 
         public override void AddRecipes()

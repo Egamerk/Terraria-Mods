@@ -3,38 +3,31 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
-using Microsoft.Xna.Framework;
-using Terraria.Audio;
-using Terraria.DataStructures;
-
 
 namespace CoolSword.Content.Items
 {
-	public class CryptBlade : ModItem
+	public class AriSword : ModItem
 	{
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Crypt Blade");
-            Tooltip.SetDefault("A crypt blade");
+            DisplayName.SetDefault("Ari's Sword");
+            Tooltip.SetDefault("A pretty cool Sword");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+
+
         }
         
-        public override Vector2? HoldoutOffset()
-        {
-        return new Vector2(9000, 3000);
-        }
-
         public override void SetDefaults()
         {
-            Item.width = 105;
-            Item.height = 75;
+            Item.width = 62;
+            Item.height = 62;
 
             Item.useStyle = ItemUseStyleID.Swing;
             
-            Item.useTime = 20;
-            Item.useAnimation = 75;
+            Item.useTime = 10;
+            Item.useAnimation = 10;
 
-            Item.autoReuse = false;
+            Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
             Item.damage = 500;
@@ -43,7 +36,7 @@ namespace CoolSword.Content.Items
             Item.crit = 5;
 
             Item.value = Item.buyPrice(gold: 50);
-            Item.rare = ItemRarityID.Pink;
+            Item.rare = ItemRarityID.Purple;
 
             Item.UseSound = SoundID.Item1;
 
