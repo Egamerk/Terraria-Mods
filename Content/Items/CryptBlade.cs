@@ -3,6 +3,10 @@ using Terraria;
 using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameContent.Creative;
+using Microsoft.Xna.Framework;
+using Terraria.Audio;
+using Terraria.DataStructures;
+
 
 namespace CoolSword.Content.Items
 {
@@ -17,6 +21,11 @@ namespace CoolSword.Content.Items
 
         }
         
+        public override Vector2? HoldoutOffset()
+        {
+        return new Vector2(9000, 3000);
+        }
+
         public override void SetDefaults()
         {
             Item.width = 105;
