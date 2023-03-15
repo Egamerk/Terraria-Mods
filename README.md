@@ -1,2 +1,2 @@
-# Vertex
+# A Terraria test mod
 
