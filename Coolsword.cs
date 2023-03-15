@@ -1,9 +1,9 @@
 using Terraria.ModLoader;
 
-namespace Coolsword
+namespace CoolSword
 {
-    public class Coolsword : Mod
-    {
+	public class CoolSword : Mod
+	{
 
-    }
+	}
 }
