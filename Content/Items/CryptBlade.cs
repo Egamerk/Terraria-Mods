@@ -17,6 +17,8 @@ namespace CoolSword.Content.Items
             DisplayName.SetDefault("Crypt Blade");
             Tooltip.SetDefault("A crypt blade");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+
+
         }
         
         public override Vector2? HoldoutOffset()
