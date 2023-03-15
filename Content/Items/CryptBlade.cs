@@ -10,18 +10,18 @@ using Terraria.DataStructures;
 
 namespace CoolSword.Content.Items
 {
-	public class CryptBlade : ModItem
-	{
+    public class CryptBlade : ModItem
+    {
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Crypt Blade");
             Tooltip.SetDefault("A crypt blade");
             CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
         }
-        
+
         public override Vector2? HoldoutOffset()
         {
-        return new Vector2(9000, 3000);
+            return new Vector2(9000, 3000);
         }
 
         public override void SetDefaults()
@@ -30,7 +30,7 @@ namespace CoolSword.Content.Items
             Item.height = 75;
 
             Item.useStyle = ItemUseStyleID.Swing;
-            
+
             Item.useTime = 20;
             Item.useAnimation = 75;
 
